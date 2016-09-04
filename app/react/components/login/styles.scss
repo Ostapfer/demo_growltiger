@@ -1,0 +1,87 @@
+@value {colors}: '../../styles/colors.scss';
+@value  {lightBlue_, red_} from colors;
+
+.login-wrapper {
+  max-width: 600px;
+  display: block;
+  margin: 30px auto 30px;
+}
+.login-field {
+  margin: 0 auto;
+  display: block !important;
+  width: 100% !important;
+}
+.login-form {
+  margin: 0 auto;
+  padding: 60px 100px;
+}
+.login-form h1 {
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+}
+.logo {
+  border-radius: 50%;
+  background-color: #66BB6A;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  color: #ffffff;
+  font-size: 40px;
+  margin: auto;
+}
+.login-button {
+  width: 100%;
+  margin-top: 40px;
+}
+.login-button > button{
+  background-color: #66BB6A !important;
+  width: 100% !important;
+  height: 60px !important;
+  line-height: 60px !important;
+}
+.login-button > button div {
+  height: 60px !important;
+}
+.login-button > button span {
+  color: #FFFFFF !important;
+}
+.button-wrapper {
+  text-align: center;
+  margin-top:30px;
+}
+.bottom-links {
+  margin-top: 10px;
+  padding-bottom: 30px;
+  font-size: 12px;
+}
+.bottom-links,
+.bottom-links a {
+  color: #b5b5b5;
+}
+
+.forgot-password {
+  float: left;
+}
+.get-started {
+  float: right;
+}
+.bottom-links a:hover,
+.get-started a:hover {
+  color: red_;
+  background-color: transparent !important;
+  text-decoration: none;
+}
+.login-form div {
+  padding: 0px !important;
+
+}
+.tabs-wrapper > div {
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: #81C784 !important;
+}
+.app-bar-wrapper {
+  padding-right: 5% !important;
+  background-color: #66BB6A !important;
+}
